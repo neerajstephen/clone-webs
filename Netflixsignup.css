@@ -1,0 +1,57 @@
+body{
+    background-color: red;
+}
+img{
+    width: 300px;
+    height:100px;
+    margin-top: 20px;
+    margin-left: 46px;
+}
+.sign{
+    width:400px ;
+    height: 500px;
+    background-color: black;
+    margin-left:40%;
+    margin-top: 7%;
+    border-radius: 5px;
+}
+input{
+    height:38px;
+    width:92%;
+    margin-left: 12px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    outline-color: blue;
+  opacity: 100% !important; 
+}
+#hots
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 14px;
+    font-size: 20px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.ink{
+    margin-left: 20px;
+}
+.v{
+    opacity: 75%; 
+    font-size:15px;
+    color: aliceblue;
+}
+a#ad{
+    text-decoration: none;
+    color: blueviolet;
+    opacity: 100%;
+}
+.press button{
+    width: 94%;
+    height: 38px;
+    margin-left: 12px;
+    margin-top: 20px;
+    background-color: red;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+}

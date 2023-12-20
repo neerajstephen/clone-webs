@@ -1,0 +1,287 @@
+.ROOT
+{
+    margin: o;
+    background-color: white;
+}
+.main
+{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height: 400px;
+ width:100vh;
+ position: absolute;
+}  
+.body
+{
+    display: flex; 
+    flex-direction: column;
+    width: 300px;
+    margin-left: 20%;
+    padding-top: 40%;
+    /* padding-left: 30%; */
+    position: absolute;
+} 
+.quote{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.pic
+{
+    width: 50%;
+    height: 100%;
+    margin-top: 0%;
+    /* overflow: hidden; */
+    /* background-size: contain; */
+}
+ .pic img{
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+} 
+.accountin{
+    width: 500px;
+    height: 400px;
+     margin-top: 400px;
+    margin-left: 170%;
+    display: flex;
+    flex-direction: column;
+}
+.account
+{
+    margin-right: 50%;
+    box-shadow: 1px 1px 10px 5px green;
+    border-radius: 20px;
+    width: 400px;
+    height: 370px;
+    align-items: center;
+    font-size: 35px;
+    padding: 15px 5px;
+    
+}
+.box{
+    width:400px;
+    height: 70px;
+    font-size: 35px;
+    margin: auto;
+
+}
+
+.box input{
+    width:98%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+button.login
+{
+    width:100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 10px;
+
+}
+.yep{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.create
+{
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+    height: 60px;
+    padding-top: 10px;
+}
+.create button
+{
+    background-color: olivedrab;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#sen{
+    font-size: 20px;
+    margin-right: 30%;
+    width:100%;
+    padding-left: 5%;
+}
+.background
+{
+    width: 100%;
+    height:100vh;
+    position:absolute;
+    display: flex;
+    display: none;
+}
+.blur
+{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    margin-top: 0%;
+    opacity: 50% ;
+    background-color:aquamarine;
+    /* padding-left: 30%; */
+}
+.sign_in
+{
+    /* display: flex; */
+    width: 600px;
+    height: 650px ;
+    position: absolute;
+    /* flex-direction: column; */
+    box-shadow: 1px 1px 10px 5px black;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: aliceblue;
+}
+ .names
+{
+    width: 270px;
+    height: 40px;
+    border-radius:5px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 16px;
+    
+}
+.name
+{
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 5px;
+}
+.sign
+{
+ padding-left: 3%;
+}
+.mail{
+    display:flex ;
+    padding-top: 14px;
+    width:100%;
+    justify-content: space-around;
+}
+#email
+{
+  
+    width: 560px;
+    height: 40px;
+    border-radius:5px;
+    justify-content: space-between;
+    display: flex;  
+    font-size: 16px;
+}
+.pass{
+    display:flex ;
+    padding-top: 15px;
+    width:100%;
+    justify-content: space-around;
+}
+#pswd
+{
+    
+    width: 560px;
+    height: 40px;
+    border-radius:5px;
+    justify-content: space-between;
+    display: flex;  
+    font-size: 16px;
+}
+select
+{
+        display: flex;
+        height: 40px;
+        width:30.4%;
+        justify-content: space-around;
+        margin-left: 7px;
+        margin-right: 7px;
+        border-radius: 5px;
+
+}
+.birth
+{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 10px;
+    margin-top: 7px;
+}
+#seen{
+    display: inline;
+    margin-left: 1.5%;
+}
+.date
+{
+    display: flex;
+    flex-direction: row;
+}
+.sex
+{
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 7px;
+    width: 30.69%;
+    height: 40px;
+    /* text-align: center; */
+    align-items: center;
+    padding-right: 2%;
+    padding-top: 1.5%;
+    font-size: large;
+    border-radius: 10px;
+}
+.gen{
+    margin-top: 7px;
+}
+.iden
+{
+    margin-left: 7px;
+}
+label{
+    margin-left: 10px;
+}
+.gender,.dender
+{
+    margin-left: 52.5%;
+}
+a{
+    text-decoration: none;
+}
+.para
+{
+    margin-left: 10px;
+    font-size: 15.5px;
+    margin-top:2px ;
+}
+.signup{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    padding-left:159px;
+}
+.signup button
+{
+    background-color: orange;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+#span1
+{
+    margin-top: 24px;
+    display: flex;
+    margin-left: 94%;
+}
+

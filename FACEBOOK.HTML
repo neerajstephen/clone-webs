@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./FACEBOOK.CSS">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>facebook</title>
+</head>
+<body>
+     <div class="main">
+        <div class="body">
+          <div class="pic"><img src="fb.webp" alt="facebook"></div>
+          <div class="quote"><p>Facebook helps you connect and share with the people in your life</p></div>
+        </div> 
+            <div class="accountin">
+              <div class="account">
+                   <div class="box"><input type="text" placeholder="Email address or phone number "></div>
+                   <div class="box"><input type="password" placeholder="password"></div>
+                   <div class="login" ><button class="login">Log in</button></div>
+                   <div class="yep">Forgotten password?</div><hr>
+                   <div class="create"><button class=" create login" onclick="signup()" >create new account</button></div>
+                   </div><p id="sen"><b>Create a Page </b>for celebrity, brand or business</p></div>
+                </div>
+              </div>          
+                <div class="background" id="item">
+                  <div class="blur"></div>
+                   <div class="sign_in">
+                     <div class="sign"><span id="span1"><i class="fa-solid fa-xmark fa-2xl" onclick="exit()"></i></span><h1>Sign Up </h1>
+                     <p>It's quick and easy</p></div><hr>
+                     <div class="name"><diV><input type="text" placeholder="  First Name" class="names"></div><div><input type="text" class="names" placeholder="  Surname"></div></div>
+                      <div class="mail"><input type="email" id="email" placeholder="  Mobile number or email address"></div>
+                      <div class="pass"><input type="password" id="pswd" placeholder="Password"></div>
+                      <div class="birth"><div id="seen">date of birth</div>
+                      <div class="date">
+                        <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                      </select>
+                      <select>
+                        <option>Jan</option>
+                        <option>Feb</option>                      
+                        <option>Mar</option>
+                        <option>Apr</option>                       
+                        <option>May</option>
+                        <option>Jun</option>
+                        <option>Jul</option>
+                        <option>Aug</option>                      
+                        <option>Sep</option>
+                        <option>Oct</option>                       
+                        <option>Nov</option>
+                        <option>Dec</option>
+                      </select>
+                      <select>
+                        <option>2001</option>
+                        <option>2002</option>                      
+                        <option>2003</option>
+                        <option>2004</option>                       
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>                      
+                        <option>2009</option>
+                        <option>2010</option>                       
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>                       
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>                       
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>                       
+                        <option>2020</option>
+                        <option>2021</option>                      
+                        <option>2022</option>
+                        <option>2023</option>
+                      </select>
+                   </div>
+                   <div class="gen">
+                    <div class="iden">gender<br></div>
+                    <div class="sex"><label>male</label><input type="radio" name="gender" class="dender"></div>
+                    <div class="sex"><label>female</label> <input type="radio" name="gender" class="gender"></div>
+                    <div class="sex"><label>custom</label><input type="radio" name="gender" class="gender"></div>
+                   </div>
+                   <div class="para"><p>People who use our service may have uploaded your contact information to<br>Facebook.<a href="#">Learn more.</a>
+                  <br><br>By clicking Sign Up,you agree to ours <a href="#">Terms Privacy Policy </a>and<a href="#"> Cookies Policy</a><br>
+                You may recieve SMS notifications from and can opt out at any time</p></div>
+                <div class="signup"><button class="sign_up">Sign Up</button></div>
+            </div>
+</body>
+<script>
+  function signup()
+  {
+    document.getElementById("item").style.display="block";
+  }
+  function exit()
+  {
+    document.getElementById("item").style.display="none";
+  }
+</script>
+</html>
