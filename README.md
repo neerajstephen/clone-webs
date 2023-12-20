@@ -1,2 +1,2 @@
-#My projects
-##netflix and facebook clones
+
+Netflix and facebook clones
